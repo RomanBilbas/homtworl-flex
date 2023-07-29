@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+
+header {
+    height: 600px;
+    background-color: purple;
+   background-image: url("./photo1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 180px 5%;
+}
+.div2 {
+    display: flex;
+    font-size: 1rem;
+    max-width: 48%;
+
+}
+    
+
+.Text1 {
+    display: flex;
+    max-width: 99%;
+    height: 350px;
+    background-color: grey;
+}
+.div1 {
+    display: inline-block;
+    max-width: 30%;
+    height: 150px;
+}
+h3 {
+    padding: 20px
+}
+p {
+    padding: 15px;
+    display: flex;
+}
+section {
+
+    padding: 20px;
+    margin: 15px;
+
+}
+
+a {
+     font-size: 100%;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin: 30px;
+    
+
+}
+img {
+
+    width: 255px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+footer {
+    display: flex;
+    height: 150px;
+    
+    max-width: 99%;
+    height: 350px;
+}
+.foot1 {
+    display: flex;
+    background-color: blue;
+    max-width: 40%;
+}
+
+.foot2 {
+    display: flex;
+    background-color: grey;
+    max-width: 50%;
+}
