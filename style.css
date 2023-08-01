@@ -49,15 +49,27 @@ section {
 }
 
 .img {
-    
+    font-size: 50px;
     text-align: center;
     justify-content: center;
     color: white;
+}
+.img2 {
+    display: flex;
+    font-size: 200px;
+    text-align: left;
+    margin-left: 300px;
+
+}
+.text2 {
+    text-align: center;
 }
 main {
     height: 400px;
     display: flex;
     align-items: center;
+    margin: 60px;
+    
    
 }
 footer {
