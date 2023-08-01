@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body {
+
     
 }
 
@@ -69,8 +70,11 @@ main {
     display: flex;
     align-items: center;
     margin: 60px;
-    
+
    
+}
+.main-sector {
+    display: flex;
 }
 footer {
     padding: 15px;
